@@ -3,30 +3,10 @@ import AddUser from './components/AddUser';
 import Users from './components/Users';
 
 class App extends Component {
-
-
-
-
   constructor(props) {
     super(props);
     this.state = {
-      users:[
-        {
-          id: 1,
-          name: "Eray Sahin",
-          email: "eraysahinmoon@gmail.com",
-        },
-        {
-          id: 2,
-          name: "Seref Test",
-          email: "erahinmoon@gmail.com",
-        },
-        {
-          id: 3,
-          name: "Eray Tester",
-          email: "eraysahn@gmail.com",
-        },
-      ]
+      users:[]
     };
     this.deleteUser = this.deleteUser.bind(this);
     this.addUser = this.addUser.bind(this);
