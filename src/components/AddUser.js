@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-
-
 class AddUser extends Component{
 
     state = {
@@ -54,13 +52,7 @@ class AddUser extends Component{
                     <button type='submit' className="btn btn-danger btn-block">Add New User</button>
 
                 </form>
-
-
-
             </div>
-
-
-
           </div>
         );
     }
