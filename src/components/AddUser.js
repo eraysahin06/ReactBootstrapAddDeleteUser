@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class AddUser extends Component{
-
     state = {
         name: "",
         email: "",
@@ -11,14 +10,12 @@ class AddUser extends Component{
             [e.target.name]: e.target.value
         });
     }
-
     onEmailChange(e) {
         this.setState({
             [e.target.name]: e.target.value
 
         });
     }
-
     onAddSubmit(e) {
         const { name, email } = this.state;
         const { addUser } = this.props;
